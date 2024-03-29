@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kéo Búa Bao</title>
+    <link rel="stylesheet" href="KeoBuaBao_Pro.css">
+    <script src="KeoBuaBao_Pro.js">
+    </script>
+</head>
+<body onload="reLoad()">
+    <h2 class="title">Game Kéo Búa Bao By NhatBlue</h2>
+    <div>
+        <button class="kbb" onclick="playGame('rock')"><img class="rps" src="rock-emoji.png" alt=""></button>
+        <button class="kbb" onclick="playGame('paper')"><img class="rps"  src="paper-emoji.png" alt=""></button>
+        <button class="kbb" onclick="playGame('scissors')"><img class="rps"  src="scissors-emoji.png" alt=""></button>
+    </div>
+
+    <div>
+        <h3 class="kq"></h3>
+    </div>
+
+    <div>
+        <p class="player-computer">
+            
+        </p>
+    </div>
+
+    <div>
+        <p class="results"></p>
+    </div>
+    
+    <div>
+        <button class="reset" onclick="resetScore()">Reset Score</button>
+    </div>
+</body>
+</html>

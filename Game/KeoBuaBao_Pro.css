@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(25, 25,25);
+    font-family: Arial;
+}
+.title{
+    color: white;
+}
+.kbb{
+    border: 2px dashed white;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.imgzz{
+    width: 50px;
+}
+.rps{
+    width: 50px;
+}
+.player-computer{
+    color: white;
+}
+.reset{
+    border: none;
+    padding: 5px 7px;
+    cursor: pointer;
+}
+.kq{
+    color: white;
+    margin-top: 50px;
+}
+.results{
+    color: white;
+    margin-top: 60px;
+}

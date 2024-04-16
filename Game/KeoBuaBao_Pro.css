@@ -1,6 +1,10 @@
 body{
     background-color: rgb(25, 25,25);
     font-family: Arial;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .title{
     color: white;
@@ -23,7 +27,7 @@ body{
 .player-computer{
     color: white;
 }
-.reset{
+.reset,.auto-play,.yes,.no{
     border: none;
     padding: 5px 7px;
     cursor: pointer;
